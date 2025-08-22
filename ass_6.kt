@@ -19,3 +19,9 @@ class SavingsAccount(
     fun displayAccountDetails() {
         showBalance()
     }
+}
+
+fun main() {
+    val sa = SavingsAccount("Pankaj Gawade", "SBI Bank", 50000.75)
+    sa.displayAccountDetails()
+}
